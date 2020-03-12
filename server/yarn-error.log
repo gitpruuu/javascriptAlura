@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /home/sabia/.yarn/bin/yarn.js start
+
+PATH: 
+  /home/sabia/anaconda3/bin:/home/sabia/.yarn/bin:/home/sabia/.config/yarn/global/node_modules/.bin:/home/sabia/flutter/bin:/home/sabia/.local/bin:/home/sabia/anaconda3/bin:/home/sabia/.yarn/bin:/home/sabia/.config/yarn/global/node_modules/.bin:/home/sabia/flutter/bin:/home/sabia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/usr/lib/dart/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/sabia/Documentos/pretty/javascript-avancado-i-aula1/aluraframe/server/package.json: Unexpected token { in JSON at position 315
+      at JSON.parse (<anonymous>)
+      at /home/sabia/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/sabia/.yarn/lib/cli.js:304:30)
+      at /home/sabia/.yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.15.1",
+      "express": "^4.12.3"
+    },
+    {
+      "devDependencies": {
+        "nodemon": "^2.0.2"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
